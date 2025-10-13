@@ -10,3 +10,7 @@
 </svelte:head>
 
 {@render children?.()}
+
+<!-- primary color: #fb8961 -->
+<!-- secondary color: #04095d -->
+<!-- background color: #fff -->
