@@ -68,7 +68,7 @@
 	<div
 		class="absolute z-10 flex h-full w-[100ch] flex-col justify-center space-y-5 pl-20 text-white"
 	>
-		<h2 class="hero-heading-1 custom-text-shadow mt-24 text-7xl font-bold text-white">
+		<h2 class="hero-heading-1 custom-text-shadow mt-24 text-5xl font-bold text-white">
 			<span class="hero-word inline-block">Ready</span>
 			<span class="hero-word inline-block">to</span>
 			<span class="hero-word inline-block">start</span>
@@ -76,19 +76,19 @@
 			<span class="hero-word inline-block">journey</span>
 			<span class="hero-word inline-block">at</span>
 		</h2>
-		<h1 class="hero-heading-2 custom-text-shadow text-7xl font-bold text-[#04095d]">
+		<h1 class="hero-heading-2 custom-text-shadow text-5xl font-bold text-[#04095d]">
 			Shining Vessels?
 		</h1>
-		<p class="hero-description text-xl font-semibold">
+		<p class="hero-description text-md font-semibold">
 			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse perspiciatis exercitationem
 			nulla animi ipsum perferendis incidunt qui quia cumque, dicta sit hic tempora labore vero
 			libero fuga eveniet totam vitae.
 		</p>
-		<div class=" mt-5 flex items-center justify-start gap-4 text-xl font-bold text-white">
-			<a href="/admission" class="hero-button rounded-md bg-[#fb8961] px-10 py-4 capitalize"
+		<div class=" mt-5 flex items-center justify-start gap-4 text-md font-bold text-white">
+			<a href="/admission" class="hero-button rounded-md bg-[#fb8961] px-6 py-2 capitalize"
 				>Join us</a
 			>
-			<a href="/contact" class="hero-button rounded-md bg-[#04095d] px-10 py-4 capitalize"
+			<a href="/contact" class="hero-button rounded-md bg-[#04095d] px-6 py-2 capitalize"
 				>Reach out</a
 			>
 		</div>

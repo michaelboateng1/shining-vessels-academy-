@@ -29,13 +29,13 @@
 </script>
 
 <div bind:this={container} class="flex justify-between items-center h-[500px]">
-    <div class="w-[500px] flex flex-col items-start gap-5">
-        <div class="h-[70px] bg-[#04095d] arrow-left {isVisible ? 'w-1/2' : 'w-0'}"></div>
-        <div class="h-[70px] bg-[#fb8961] arrow-left {isVisible ? 'w-full' : 'w-0'} delay-100"></div>
+    <div class="w-[500px] flex flex-col items-start gap-2">
+        <div class="h-[50px] bg-[#04095d] arrow-left {isVisible ? 'w-1/2' : 'w-0'}"></div>
+        <div class="h-[50px] bg-[#fb8961] arrow-left {isVisible ? 'w-full' : 'w-0'} delay-100"></div>
     </div>
-    <div class="w-[500px] flex flex-col items-end gap-5">
-        <div class="h-[70px] bg-[#fb8961] arrow-right {isVisible ? 'w-full' : 'w-0'} delay-300"></div>
-        <div class="h-[70px] bg-[#04095d] arrow-right {isVisible ? 'w-1/2' : 'w-0'} delay-500"></div>
+    <div class="w-[500px] flex flex-col items-end gap-2">
+        <div class="h-[50px] bg-[#fb8961] arrow-right {isVisible ? 'w-full' : 'w-0'} delay-300"></div>
+        <div class="h-[50px] bg-[#04095d] arrow-right {isVisible ? 'w-1/2' : 'w-0'} delay-500"></div>
     </div>
 </div>
 
