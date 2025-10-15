@@ -1,26 +1,25 @@
 <script>
 	import { onMount } from 'svelte';
 	import { gsap } from 'gsap';
-	import heroVideo from '$lib/assets/videos/19 PRESENTATION OF CERTIFICATE SVA 2024 GRADUATION1.mp4';
+	// import heroVideo from '$lib/assets/videos/19 PRESENTATION OF CERTIFICATE SVA 2024 GRADUATION1.mp4';
 	import HeroNav from './HeroNav.svelte';
 
-	let heroContent;
-	let videoContainer;
+	// let videoContainer;
 
 	onMount(() => {
-		const video = document.createElement('video');
-		video.src = heroVideo;
-		video.autoplay = false;
-		video.loop = true;
-		video.muted = true;
-		video.disablePictureInPicture = true;
-		video.className = 'absolute h-full w-full object-cover';
-		videoContainer.appendChild(video);
+		// const video = document.createElement('video');
+		// video.src = heroVideo;
+		// video.autoplay = false;
+		// video.loop = true;
+		// video.muted = true;
+		// video.disablePictureInPicture = true;
+		// video.className = 'absolute h-full w-full object-cover';
+		// videoContainer.appendChild(video);
 
-		const tl = gsap.timeline({ 
+		const tl = gsap.timeline({
 			defaults: { ease: 'power3.out' },
 			onComplete: () => {
-				video.play();
+				// video.play();
 			}
 		});
 
@@ -64,7 +63,7 @@
 </script>
 
 <section class="relative h-screen w-full">
-	<div bind:this={videoContainer} class="video-container"></div>
+	<!-- <div bind:this={videoContainer} class="video-container"></div> -->
 	<div class="overlay absolute z-10 h-full w-full"></div>
 	<div
 		class="absolute z-10 flex h-full w-[100ch] flex-col justify-center space-y-5 pl-20 text-white"
@@ -105,6 +104,14 @@
 			hsla(0, 0%, 100%, 0.5),
 			hsla(237, 92%, 19%, 0.8)
 		);
+	}
+
+	section {
+		background: url('../../lib/assets/images/schoolImage1.jpg');
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		background-attachment: fixed;
 	}
 
 	.custom-text-shadow {
