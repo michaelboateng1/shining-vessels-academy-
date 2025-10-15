@@ -1,9 +1,20 @@
 <script>
+	import { onMount } from 'svelte';
 	import NavBar from './NavBar.svelte';
 	import SchoolLogo from '$lib/assets/images/310428482_545284817602681_4675978038248228164_n.jpg';
+
+	let scrolled = $state(false);
+
+	onMount(() => {
+		const handleScroll = () => {
+			scrolled = window.scrollY > 50;
+		};
+		window.addEventListener('scroll', handleScroll);
+		return () => window.removeEventListener('scroll', handleScroll);
+	});
 </script>
 
-<header class="justify-betwee fixed z-20 flex w-full">
+<header class="justify-betwee fixed z-20 flex w-full transition-all duration-300 {scrolled ? 'bg-white shadow-lg' : 'bg-transparent'}">
 	<div class=" absolute top-5 left-16 h-auto w-[100px] overflow-hidden rounded-full">
 		<img src={SchoolLogo} alt="School Logo" />
 	</div>
@@ -32,8 +43,8 @@
 				</div>
 			</div>
 		</section>
-		<NavBar />
+		<NavBar {scrolled} />
 	</div>
 </header>
 
-<!-- container mx-auto xl:top-16 xl:left-1/2 xl:-translate-1/2 xl:transform -->
+<!-- 2xl:top-16 2xl:left-1/2 2xl:container 2xl:mx-auto 2xl:-translate-1/2 2xl:transform -->
