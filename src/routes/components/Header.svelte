@@ -16,7 +16,7 @@
 
 <header class="glass-bg justify-betwee fixed z-20 flex w-full transition-all duration-300 {scrolled ? 'glass-bg shadow-lg' : 'remove-glass'}">
 	<div class=" absolute top-5 left-16 h-auto w-[80px] overflow-hidden rounded-full">
-		<img src={SchoolLogo} alt="School Logo" />
+		<a href="/"><img src={SchoolLogo} alt="School Logo" /></a>
 	</div>
 
 	<div class="ml-auto grid justify-items-end">

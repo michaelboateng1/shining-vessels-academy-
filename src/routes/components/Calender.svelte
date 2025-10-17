@@ -234,22 +234,6 @@
 		transform: scale(1.01);
 	}
 
-	div > div {
-		margin-bottom: 2rem;
-	}
-
-	div > div > div h3 {
-		font-size: 1.5rem;
-		font-weight: 600;
-		margin-bottom: 0.5rem;
-		color: #1a1a1a;
-	}
-
-	div > div > div p {
-		color: #6c757d;
-		margin-bottom: 1rem;
-	}
-
 	/* Pulse animation for caption */
 	table.visible caption {
 		animation: pulse 2s ease-in-out infinite;
