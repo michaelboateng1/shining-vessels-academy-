@@ -1,5 +1,61 @@
-<section class="mt-30 flex h-screen w-full flex-col items-center justify-center">
-	<h2 class=" text-5xl font-bold text-[#04095d]">Experience Shining Vessels Academy</h2>
+<script>
+	import { onMount } from 'svelte';
+	import gsap from 'gsap';
+	import { ScrollTrigger } from 'gsap/ScrollTrigger';
+
+	let sectionElement;
+	let headingElement;
+
+	onMount(() => {
+		gsap.registerPlugin(ScrollTrigger);
+
+		setTimeout(() => {
+			if (!sectionElement || !headingElement) {
+				console.error('Elements not found');
+				return;
+			}
+
+			// Split text into individual characters
+			const text = headingElement.textContent;
+			headingElement.innerHTML = '';
+			
+			const chars = text.split('').map((char) => {
+				const span = document.createElement('span');
+				span.textContent = char === ' ' ? '\u00A0' : char; // Preserve spaces
+				span.style.display = 'inline-block';
+				return span;
+			});
+
+			chars.forEach((char) => headingElement.appendChild(char));
+
+			// Set initial state for characters
+			gsap.set(chars, { opacity: 0, x: -50 });
+
+			// Create ScrollTrigger animation
+			ScrollTrigger.create({
+				trigger: sectionElement,
+				start: 'top 75%',
+				once: true,
+				onEnter: () => {
+					gsap.to(chars, {
+						opacity: 1,
+						x: 0,
+						duration: 0.5,
+						stagger: 0.03,
+						ease: 'power2.out'
+					});
+				}
+			});
+		}, 100);
+
+		return () => {
+			ScrollTrigger.getAll().forEach((trigger) => trigger.kill());
+		};
+	});
+</script>
+
+<section class="mt-30 flex h-screen w-full flex-col items-center justify-center" bind:this={sectionElement}>
+	<h2 class=" text-5xl font-bold text-[#04095d]" bind:this={headingElement}>Experience Shining Vessels Academy</h2>
 	<div class="mt-10 flex gap-30">
 		<a
 			href="/contact"

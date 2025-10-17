@@ -69,14 +69,14 @@
 		class="absolute z-10 flex h-full w-[100ch] flex-col justify-center space-y-5 pl-20 text-white"
 	>
 		<h2 class="hero-heading-1 custom-text-shadow mt-24 text-5xl font-bold text-white">
-			<span class="hero-word inline-block">Ready</span>
-			<span class="hero-word inline-block">to</span>
-			<span class="hero-word inline-block">start</span>
-			<span class="hero-word inline-block">your</span>
-			<span class="hero-word inline-block">journey</span>
-			<span class="hero-word inline-block">at</span>
+			<span class="hero-word inline-block italic">Ready</span>
+			<span class="hero-word inline-block italic">to</span>
+			<span class="hero-word inline-block italic">start</span>
+			<span class="hero-word inline-block italic">your</span>
+			<span class="hero-word inline-block italic">journey</span>
+			<span class="hero-word inline-block italic">at</span>
 		</h2>
-		<h1 class="hero-heading-2 custom-text-shadow text-5xl font-bold text-[#04095d]">
+		<h1 class="hero-heading-2 custom-text-shadow text-5xl font-bold text-[#fb8961]">
 			Shining Vessels?
 		</h1>
 		<p class="hero-description text-md font-semibold">
@@ -100,10 +100,13 @@
 	.overlay {
 		background: linear-gradient(
 			to bottom,
-			hsla(237, 92%, 19%, 0.8),
-			hsla(0, 0%, 100%, 0.5),
-			hsla(237, 92%, 19%, 0.8)
+			hsla(0, 9%, 0%, 0.5),
+			hsla(0, 9%, 0%, 0.5)
 		);
+	}
+
+	h1{
+		font-style: oblique;
 	}
 
 	section {
@@ -115,6 +118,6 @@
 	}
 
 	.custom-text-shadow {
-		text-shadow: 4px 4px 4px #fb8961;
+		/* text-shadow: 2px 2px 4px #fb8961; */
 	}
 </style>
