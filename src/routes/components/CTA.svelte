@@ -41,7 +41,7 @@
 						opacity: 1,
 						x: 0,
 						duration: 0.5,
-						stagger: 0.03,
+						stagger: 0.05,
 						ease: 'power2.out'
 					});
 				}

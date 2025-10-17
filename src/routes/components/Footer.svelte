@@ -2,8 +2,8 @@
     import SchoolLogo from '$lib/assets/images/310428482_545284817602681_4675978038248228164_n.jpg'
 </script>
 
-<footer class="bg-[#04095d] py-5 text-[#ccc] mt-20">
-    <div class="flex items-center justify-between border-b-2 border-gray-200 px-10 pb-5" aria-label="Footer">
+<footer class="bg-[#04095d] pb-5 text-[#ccc] mt-20">
+    <div class="flex items-center py-5 justify-between border-b-2 bg-image border-gray-200 px-10 pb-5" aria-label="Footer">
         <div class="w-[60px] h-auto" aria-label="Footer">
             <img src={SchoolLogo} alt="School Logo" class="w-full h-full object-cover" />
         </div>
@@ -56,5 +56,13 @@
     li:hover{
         text-decoration: underline;
         color: white;
+    }
+
+    .bg-image{
+        background: linear-gradient(hsla(0, 0%, 0%, .5), hsla(0, 0%, 0%, .5)), url('../../lib/assets/images/students.jpg');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
     }
 </style>
