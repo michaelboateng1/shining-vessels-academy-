@@ -14,28 +14,28 @@
 			</li>
 			<li>
 				<a
-					href="/about"
+					href="/admission"
 					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
 					>Admissions</a
 				>
 			</li>
 			<li>
 				<a
-					href="/about"
+					href="/academics"
 					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
 					>Academics</a
 				>
 			</li>
 			<li>
 				<a
-					href="/about"
+					href="/students-life"
 					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
 					>Students Life</a
 				>
 			</li>
 			<li>
 				<a
-					href="/about"
+					href="/athletics"
 					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
 					>Athletics</a
 				>

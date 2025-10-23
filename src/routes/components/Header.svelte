@@ -31,9 +31,9 @@
 						<i class="fa-solid fa-house-chimney text-xl"></i>
 						<span>Home</span>
 					</a>
-					<a href="/calander" class="ml-5 flex items-center justify-around gap-2 px-3 py-2">
+					<a href="/calender" class="ml-5 flex items-center justify-around gap-2 px-3 py-2">
 						<i class="fa-solid fa-calendar-days text-xl"></i>
-						<span>Calander</span>
+						<span>Calender</span>
 					</a>
 				</div>
 
