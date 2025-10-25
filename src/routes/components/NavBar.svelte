@@ -7,6 +7,13 @@
 		<ul class="flex items-center justify-evenly text-lg font-semibold text-white {scrolled ? "text-[#04095d]" : "text-white"}">
 			<li>
 				<a
+					href="/"
+					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
+					>Home</a
+				>
+			</li>
+			<li>
+				<a
 					href="/about"
 					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
 					>About</a
@@ -28,16 +35,9 @@
 			</li>
 			<li>
 				<a
-					href="/students-life"
+					href="/school-activities"
 					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
-					>Students Life</a
-				>
-			</li>
-			<li>
-				<a
-					href="/athletics"
-					class="border-r-2 border-[#fb8961] px-4 py-2 transition-all duration-300 hover:text-[#fb8961] {scrolled ? "text-[#04095d]" : "text-white"}"
-					>Athletics</a
+					>School Activities</a
 				>
 			</li>
 		</ul>

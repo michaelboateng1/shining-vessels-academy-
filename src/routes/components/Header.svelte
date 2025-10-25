@@ -23,13 +23,13 @@
 		<section class="flex items-center justify-end">
 			<div class="flex items-center justify-around gap-10 bg-[#04095d] pr-3 text-white">
 				<div class="flex items-center justify-evenly text-md font-bold text-white">
-					<a href="/alumini" class="flex items-center justify-around gap-2 bg-[#fb8961] px-3 py-2">
+					<a href="/testimonial" class="flex items-center justify-around gap-2 bg-[#fb8961] px-3 py-2">
 						<i class="fa-solid fa-users-line text-xl"></i>
-						<span>Alumini</span>
+						<span>Testimonials</span>
 					</a>
 					<a href="/" class="ml-5 flex items-center justify-around gap-2 px-3 py-2">
 						<i class="fa-solid fa-house-chimney text-xl"></i>
-						<span>Home</span>
+						<span>FAQs</span>
 					</a>
 					<a href="/calender" class="ml-5 flex items-center justify-around gap-2 px-3 py-2">
 						<i class="fa-solid fa-calendar-days text-xl"></i>

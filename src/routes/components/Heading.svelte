@@ -1,4 +1,5 @@
 <script>
+    import bgImage from '$lib/assets/images/playGround.jpg';
     export let message;
 </script>
 
