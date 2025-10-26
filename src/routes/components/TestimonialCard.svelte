@@ -1,7 +1,5 @@
 <script>
 	export let testimony;
-
-	// console.log(testimony.img);
 </script>
 
 <div class="relative h-auto w-full">

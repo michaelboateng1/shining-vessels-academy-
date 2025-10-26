@@ -1,6 +1,7 @@
 <script>
 	import Heading from '../components/Heading.svelte';
 	import AboutInfo from '../components/AboutInfo.svelte';
+	import AboutOurAdmission from '../components/AboutOurAdmission.svelte';
 
 	import studentsInClass1 from '$lib/assets/images/studentsInClass2.jpg';
 	import studentsInClass2 from '$lib/assets/images/studentsInClass.jpg';
@@ -61,8 +62,9 @@
 <main>
 	<Heading {message}>
 		<h1 class="mb-4 text-5xl font-bold" data-aos="fade-in">
-			<span class="text-[#fb8961]">SVA</span> Admissions
+			<span class="text-[#fb8961]">SVA</span> Admission
 		</h1>
 	</Heading>
-	<AboutInfo {cards} />
+	<!-- <AboutInfo {cards} /> -->
+	 <AboutOurAdmission />
 </main>
