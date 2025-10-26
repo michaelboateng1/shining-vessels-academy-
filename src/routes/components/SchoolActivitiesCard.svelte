@@ -2,7 +2,11 @@
 	import image from '$lib/assets/images/entertainment.jpg';
 </script>
 
-<section class="flex h-[600px] flex-col justify-center rounded-lg shadow-sm">
+<section
+	class="flex h-[600px] flex-col justify-center rounded-lg shadow-sm"
+	data-aos="fade-up"
+	data-aos-delay={200}
+>
 	<div class="h-auto w-full overflow-hidden rounded-t-lg">
 		<img src={image} alt="" class="h-full w-full object-cover" />
 	</div>
