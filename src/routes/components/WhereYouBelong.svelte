@@ -3,7 +3,7 @@
     import image2 from "$lib/assets/images/competetion5.jpg"; 
 </script>
 
-<section class="container mx-auto mt-20 px-20">
+<section class="container mx-auto mt-20 px-10">
     <div class="px-5 space-y-4 text-[#343a40]">
         <h2 class="text-[#04095d] font-semibold text-xl mb-2">Where you belong.</h2>
         <p class="text-[#04095d] font-bold mb-5">Lorem, ipsum. Lorem, ipsum.</p>

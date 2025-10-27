@@ -9,7 +9,7 @@
 <main>
 	<Heading {message}>
 		<h1 class="mb-4 text-5xl font-bold" data-aos="fade-in">
-			About <span class="text-[#fb8961]">SVA</span> Academics
+			<span class="text-[#fb8961]">SVA</span> Testimonials
 		</h1>
 	</Heading>
 	<Testimonials />

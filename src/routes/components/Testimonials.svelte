@@ -49,6 +49,7 @@
 	<div
 		class="absolute top-1/2 left-0 z-10 flex h-auto w-full translate-y-1/2 items-center justify-between"
 	>
+	<!-- TODO:Remove Up and Down -->
 		<div onclick={() => scrollUp()} class="flex h-10 w-10 items-center justify-center">
 			<i
 				class="fa-regular fa-circle-up cursor-pointer text-3xl text-[#fb8961] transition-colors duration-300 hover:text-[#04095d]"
