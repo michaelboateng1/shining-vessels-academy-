@@ -25,42 +25,23 @@
 	let scrollPosition = $state(0);
 	let current = $state(testimonies[0]);
 
-	const changeTestimony = (change) => {
-		current = testimonies[change];
-	};
-
 	const scrollUp = () => {
-		scrollPosition = scrollPosition === 0 ? testimonies.length - 1 : --scrollPosition;
-		changeTestimony(scrollPosition);
+		scrollPosition = (scrollPosition + 1) % testimonies.length;
 	};
 	const scrollDown = () => {
-		scrollPosition = scrollPosition === testimonies.length - 1 ? 0 : ++scrollPosition;
-		changeTestimony(scrollPosition);
+		scrollPosition = (scrollPosition - 1 + testimonies.length) % testimonies.length;
 	};
 </script>
 
-<section class="relative container mx-auto mt-30 h-screen">
-	<div class="flex h-full flex-col gap-10 overflow-y-scroll">
-		<!-- {#each testimonies as testimonial} -->
-		<!-- {console.log(current.img)} -->
-		<TestimonialCard testimony={current} />
-		<!-- {/each} -->
-	</div>
-	<div
-		class="absolute top-1/2 left-0 z-10 flex h-auto w-full translate-y-1/2 items-center justify-between"
-	>
-	<!-- TODO:Remove Up and Down -->
-		<div onclick={() => scrollUp()} class="flex h-10 w-10 items-center justify-center">
-			<i
-				class="fa-regular fa-circle-up cursor-pointer text-3xl text-[#fb8961] transition-colors duration-300 hover:text-[#04095d]"
-				>Up</i
-			>
-		</div>
-		<div onclick={() => scrollDown()} class="flex h-10 w-10 items-center justify-center">
-			<i
-				class="fa-regular fa-circle-down cursor-pointer text-3xl text-[#fb8961] transition-colors duration-300 hover:text-[#04095d]"
-				>Down</i
-			>
+<section class="relative container mx-auto mt-30 h-screen hidden sm:block">
+	<div class="flex h-full flex-col gap-10">
+		<div class="relative h-auto w-full">
+			{#each testimonies as testimony, i }
+				<TestimonialCard {testimony} {scrollUp} {scrollDown} {scrollPosition} {i} />
+			{/each}
 		</div>
 	</div>
 </section>
+
+
+
