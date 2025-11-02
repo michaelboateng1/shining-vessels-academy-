@@ -5,25 +5,25 @@
 	const cardList = [
 		{
 			title: 'Academics',
-			icon: 'fa-solid fa-book pt-10 text-6xl text-[#04095d]',
+			icon: 'fa-solid fa-book sm:pt-10 pt-5 text-5xl sm:text-6xl text-[#04095d]',
 		},
 		{
 			title: 'Academics',
-			icon: 'fa-solid fa-book pt-10 text-6xl text-[#04095d]',
+			icon: 'fa-solid fa-book sm:pt-10 pt-5 text-5xl sm:text-6xl text-[#04095d]',
 		},
 		{
 			title: 'Academics',
-			icon: 'fa-solid fa-book pt-10 text-6xl text-[#04095d]',
+			icon: 'fa-solid fa-book sm:pt-10 pt-5 text-5xl sm:text-6xl text-[#04095d]',
 		}
 	];
 </script>
 
 
-<div class=" flex h-[200px] h-[400px] items-center justify-evenly py-20">
+<div class=" flex flex-wrap w-full items-center justify-center sm:justify-evenly gap-10 mt-20">
 	{#each cardList as card, i}
 	<HeroNavCard {i}>
 		<i class={card.icon}></i>
-		<p class="py-10 text-2xl font-semibold text-[#04095d]">{card.title}</p>
+		<p class="sm:py-10 sm:text-2xl text-xl py-5 font-semibold text-[#04095d]">{card.title}</p>
 	</HeroNavCard>
 	{/each}
 </div>

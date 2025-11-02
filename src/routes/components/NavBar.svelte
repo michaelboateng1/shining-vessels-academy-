@@ -2,7 +2,7 @@
 	export let scrolled;
 </script>
 
-<nav class="flex items-center justify-between py-5 pr-8">
+<nav class="sm:flex hidden items-center justify-between py-5 pr-8">
 	<div class="flex items-center justify-between gap-10">
 		<ul class="flex items-center justify-evenly text-lg font-semibold text-white {scrolled ? "text-[#04095d]" : "text-white"}">
 			<li>

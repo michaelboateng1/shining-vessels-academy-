@@ -33,8 +33,8 @@
 </script>
 
 <section class="mt-20">
-    <h2 class=" text-[2.5rem] font-bold text-[#04095d] text-center capitalize mb-[3rem]">Calender and Events</h2>
-    <div class="flex gap-8 justify-between items-start">
+    <h2 class=" sm:text-[2.5rem] text-3xl font-bold text-[#04095d] text-center capitalize mb-10 sm:mb-[3rem]">Calender and Events</h2>
+    <div class="flex flex-col sm:flex-row gap-8 justify-between items-start">
         <table class="rounded-bl-lg rounded-br-lg" bind:this={tables[0]} data-index="0" class:visible={isVisible[0]}>
             <caption class="py-2 px-5 rounded-tl-lg rounded-tr-lg">
                 <h3>Upcoming Events</h3>

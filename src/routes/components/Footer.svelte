@@ -22,14 +22,14 @@
             </div>
         </div>
     </div>
-    <div class="flex items-center justify-between py-20 px-10" aria-label="Footer">
-        <div aria-label="Footer" class="w-[50ch]">
+    <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-10 py-20 px-10" aria-label="Footer">
+        <div aria-label="Footer" class="sm:w-[50ch]">
             <h2 class="mb-2 text-[#fb8961] font-bold text-xl">About us</h2>
             <p class="space-y-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nihil dolorem aperiam officiis voluptatum molestias sit doloribus animi quisquam quibusdam! Velit officia molestias nesciunt voluptatem, blanditiis deleniti natus asperiores beatae eaque, inventore quos reiciendis enim! Delectus maiores a neque quia?</p>
         </div>
         <div aria-label="Footer">
             <h2 class="mb-2 text-[#fb8961] font-bold text-xl">Quick Links</h2>
-            <ul class="space-y-2 text-center">
+            <ul class="space-y-2">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
                 <li><a href="/programs">Programs</a></li>

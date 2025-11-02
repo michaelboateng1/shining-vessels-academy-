@@ -28,7 +28,7 @@
     });
 </script>
 
-<div bind:this={container} class="flex justify-between items-center h-[500px]">
+<div bind:this={container} class="flex justify-between items-center mt-20 h-[400px]">
     <div class="w-[500px] flex flex-col items-start gap-2">
         <div class="h-[50px] bg-[#04095d] arrow-left {isVisible ? 'w-1/2' : 'w-0'}"></div>
         <div class="h-[50px] bg-[#fb8961] arrow-left {isVisible ? 'w-full' : 'w-0'} delay-100"></div>

@@ -15,23 +15,20 @@
 				return;
 			}
 
-			// Split text into individual characters
 			const text = headingElement.textContent;
 			headingElement.innerHTML = '';
 			
 			const chars = text.split('').map((char) => {
 				const span = document.createElement('span');
-				span.textContent = char === ' ' ? '\u00A0' : char; // Preserve spaces
+				span.textContent = char === ' ' ? '\u00A0' : char;
 				span.style.display = 'inline-block';
 				return span;
 			});
 
 			chars.forEach((char) => headingElement.appendChild(char));
 
-			// Set initial state for characters
 			gsap.set(chars, { opacity: 0, x: -50 });
 
-			// Create ScrollTrigger animation
 			ScrollTrigger.create({
 				trigger: sectionElement,
 				start: 'top 75%',
@@ -54,17 +51,17 @@
 	});
 </script>
 
-<section class="mt-30 flex h-screen w-full flex-col items-center justify-center" bind:this={sectionElement}>
-	<h2 class=" text-5xl font-bold text-[#04095d]" bind:this={headingElement}>Experience Shining Vessels Academy</h2>
-	<div class="mt-10 flex gap-30">
+<section class="mt-20 px-5 flex h-screen w-full flex-col items-center justify-center" bind:this={sectionElement}>
+	<h2 class=" sm:text-5xl text-4xl font-bold text-[#04095d]" bind:this={headingElement}>Experience Shining Vessels Academy</h2>
+	<div class="mt-10 flex gap-5 sm:gap-30">
 		<a
 			href="/contact"
-			class="rounded-4xl border-2 border-[#fb8961] bg-[#fb8961] px-8 py-2 text-md font-semibold text-white capitalize transition-all duration-300 hover:border-[#04095d] hover:bg-[#04095d]"
+			class="rounded-4xl text-nowrap border-2 border-[#fb8961] bg-[#fb8961] sm:px-8 sm:py-2 px-5 py-1 text-md font-semibold text-white capitalize transition-all duration-300 hover:border-[#04095d] hover:bg-[#04095d]"
 			>Visit us</a
 		>
 		<a
 			href="/admission"
-			class="rounded-4xl border-2 border-white px-8 py-2 text-md font-semibold text-white capitalize transition-all duration-300 hover:border-[#04095d] hover:bg-[#04095d] hover:text-white"
+			class="rounded-4xl text-nowrap border-2 border-white sm:px-8 sm:py-2 px-5 py-1 text-md font-semibold text-white capitalize transition-all duration-300 hover:border-[#04095d] hover:bg-[#04095d] hover:text-white"
 			>Apply To SVA</a
 		>
 	</div>

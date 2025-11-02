@@ -9,11 +9,11 @@
 </script>
 
 <section class="mt-20">
-	<h2 class="customShadow mb-[3rem] text-center text-[2.5rem] font-bold text-[#04095d] capitalize">
+	<h2 class="customShadow mb-10 sm:mb-[3rem] text-center text-3xl sm:text-[2.5rem] font-bold text-[#04095d] capitalize">
 		Questions & Answers
 	</h2>
 
-	<div class="container mx-auto grid grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay={200}>
+	<div class="container mx-auto grid px-10 sm:grid-cols-2 gap-8" data-aos="fade-up" data-aos-delay={200}>
 		{#each faqs as faq, i}
 			<div class={i === current ? 'rounded-lg shadow-sm' : ''}>
 				<div

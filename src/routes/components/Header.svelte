@@ -6,6 +6,7 @@
 	let scrolled = $state(false);
 
 	onMount(() => {
+		scrolled = window.scrollY > 50;
 		const handleScroll = () => {
 			scrolled = window.scrollY > 50;
 		};
@@ -19,14 +20,14 @@
 		? 'glass-bg shadow-lg'
 		: 'remove-glass'}"
 >
-	<div class=" absolute top-5 left-16 h-auto w-[80px] overflow-hidden rounded-full">
+	<div class=" hidden sm:block absolute top-5 left-16 h-auto w-[80px] overflow-hidden rounded-full">
 		<a href="/"><img src={SchoolLogo} alt="School Logo" /></a>
 	</div>
 
-	<div class="ml-auto grid justify-items-end">
-		<section class="flex items-center justify-end">
-			<div class="flex items-center justify-around gap-10 bg-[#04095d] pr-3 text-white">
-				<div class="text-md flex items-center justify-evenly font-bold text-white">
+	<div class="ml-auto w-full sm:w-auto grid justify-items-end">
+		<section class="flex items-center w-full sm:w-auto justify-end">
+			<div class="flex items-center w-full sm:w-auto justify-around gap-10 bg-[#04095d] pr-3 text-white">
+				<div class="text-md hidden sm:flex w-full sm:w-auto items-center justify-evenly font-bold text-white">
 					<a
 						href="/testimonials"
 						class="flex items-center justify-around gap-2 bg-[#fb8961] px-3 py-2"
@@ -44,13 +45,22 @@
 					</a>
 				</div>
 
-				<div class="flex items-center justify-between gap-8 text-sm font-semibold">
+				<div class="flex items-center justify-between py-2 sm:py-0 gap-8 text-sm font-semibold">
 					<a href="tel:+23345324242">+23345324242</a>
 					<a href="mailto:example@gmail.com">example@gmail.com</a>
 				</div>
 			</div>
 		</section>
 		<NavBar {scrolled} />
+		<section class="sm:hidden flex justify-between items-center w-full py-3 px-5">
+			<div class="h-auto w-[50px] overflow-hidden rounded-full">
+				<a href="/"><img src={SchoolLogo} alt="School Logo" class="w-full h-full object-cover" /></a>
+			</div>
+
+			<div class="w-[40px] h-[40px] flex justify-center items-center">
+				<div class="w-full h-[4px] rounded-lg bg-[#fb8961] relative before:w-full before:h-[4px] before:rounded-lg before:bg-[#fb8961] before:block before:absolute before:-top-3 before:left-0 after:w-full after:h-[4px]  after:rounded-lg after:bg-[#fb8961] after:block after:absolute after:-bottom-3 after:left-0 "></div>
+			</div>
+		</section>
 	</div>
 </header>
 
