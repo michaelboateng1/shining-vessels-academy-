@@ -2,9 +2,9 @@
 	import Hero from './components/Hero.svelte';
 	import Welcome from './components/Welcome.svelte';
 	import CTA from './components/CTA.svelte';
-	// import Testimonials from './components/Testimonials.svelte';
 	import Calender from './components/Calender.svelte';
 	import FAQ from './components/FAQ.svelte';
+	import Testimonials from './components/Testimonials.svelte';
 
 	const faqs = [
 		{
@@ -32,4 +32,5 @@
 	<CTA />
 	<Calender />
 	<FAQ {faqs} />
+	<Testimonials />
 </main>

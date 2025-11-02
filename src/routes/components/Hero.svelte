@@ -3,6 +3,16 @@
 	import { gsap } from 'gsap';
 	import HeroNav from './HeroNav.svelte';
 
+	import {heroSlideImages} from "$lib/";
+
+	const slideImages = heroSlideImages;
+
+	let currentSlideImage = $state(0);
+
+	const interval = setInterval(() => {
+		currentSlideImage = (currentSlideImage + 1) % slideImages.length;
+	}, 4050);
+
 
 	onMount(() => {
 
@@ -52,7 +62,11 @@
 </script>
 
 <section class="relative h-screen w-full">
-	<!-- <div bind:this={videoContainer} class="video-container"></div> -->
+	{#each slideImages as slide, i }
+		<div class="w-full h-full absolute">
+			<img src={slide.image} alt={slide.text} class="w-full h-full obeject-cover absolute transition-opacity duration-1000 {i === currentSlideImage ? "z-10 opacity-100" : "z-0 opacity-0"}" />
+		</div>
+	{/each}
 	<div class="overlay absolute z-10 h-full w-full"></div>
 	<div
 		class="absolute z-10 flex h-full sm:w-[100ch] container  mx-auto text-center sm:text-left flex-col justify-center space-y-5 px-5 sm:px-10 lg:pl-20 text-white"
@@ -102,7 +116,7 @@
 	}
 
 	section {
-		background: url('../../lib/assets/images/schoolImage1.jpg');
+		/* background: url('../../lib/assets/images/schoolImage1.jpg'); */
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;

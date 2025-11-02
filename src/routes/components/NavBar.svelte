@@ -42,7 +42,7 @@
 			</li>
 		</ul>
 
-		<div class=" flex items-center hidden lg:block font-bold">
+		<div class=" lg:flex items-center hidden font-bold">
 			<a
 				href="/admission"
 				class="w-1/2 rounded-l-full bg-[#fb8961] px-5 py-2 text-md text-nowrap text-white capitalize {scrolled ? "text-[#fb8961]" : "text-white"}"

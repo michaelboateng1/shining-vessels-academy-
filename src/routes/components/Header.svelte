@@ -16,7 +16,7 @@
 </script>
 
 <header
-	class="glass-bg justify-betwee fixed z-20 flex w-full transition-all duration-300 {scrolled
+	class="glass-bg justify-betwee fixed z-30 flex w-full transition-all duration-300 {scrolled
 		? 'glass-bg shadow-lg'
 		: 'remove-glass'}"
 >
