@@ -64,7 +64,7 @@
 			</div>
 
 			<div onclick={() => hundleMobileNav()} onkeydown={() => hundleMobileNav()} tabindex=[1] role="button" class="w-[40px] h-[40px] flex justify-center items-center">
-				<div class="w-full h-[4px] rounded-lg bg-[#fb8961] relative before:w-full before:h-[4px] before:rounded-lg before:bg-[#fb8961] before:block before:absolute before:-top-3 before:left-0 after:w-full after:h-[4px]  after:rounded-lg after:bg-[#fb8961] after:block after:absolute after:-bottom-3 after:left-0 {mobileNav ? "bg-transparent before:transform before:rotate-[45deg] before:-bottom-2 after:transform after:-rotate-[45deg] after:-top-2" : ""} "></div>
+				<div class="w-full h-[4px] rounded-lg bg-[#fb8961] transition-all duration-300 relative before:transition-transform before:duration-300 before:w-full before:h-[4px] before:rounded-lg before:bg-[#fb8961] before:block before:absolute before:-top-3 before:left-0 after:w-full after:h-[4px]  after:rounded-lg after:bg-[#fb8961] after:block after:absolute after:-bottom-3 after:left-0 {mobileNav ? "bg-transparent before:transform before:rotate-[45deg] before:top-0 after:transition-transform after:duration-300 after:transform after:-rotate-[45deg] after:bottom-0" : ""} "></div>
 			</div>
 		</section>
 	</div>
