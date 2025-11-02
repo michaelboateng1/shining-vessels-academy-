@@ -1,9 +1,15 @@
 <script>
 	import { onMount } from 'svelte';
 	import NavBar from './NavBar.svelte';
+	import MobileNav from './MobileNav.svelte';
 	import SchoolLogo from '$lib/assets/images/310428482_545284817602681_4675978038248228164_n.jpg';
 
 	let scrolled = $state(false);
+
+	let mobileNav = $state(false);
+
+	const hundleMobileNav = () => mobileNav = !mobileNav;
+
 
 	onMount(() => {
 		scrolled = window.scrollY > 50;
@@ -16,7 +22,7 @@
 </script>
 
 <header
-	class="glass-bg justify-betwee fixed z-30 flex w-full transition-all duration-300 {scrolled
+	class="glass-bg justify-betwee fixed z-40 flex w-full transition-all duration-300 {scrolled
 		? 'glass-bg shadow-lg'
 		: 'remove-glass'}"
 >
@@ -57,12 +63,13 @@
 				<a href="/"><img src={SchoolLogo} alt="School Logo" class="w-full h-full object-cover" /></a>
 			</div>
 
-			<div class="w-[40px] h-[40px] flex justify-center items-center">
-				<div class="w-full h-[4px] rounded-lg bg-[#fb8961] relative before:w-full before:h-[4px] before:rounded-lg before:bg-[#fb8961] before:block before:absolute before:-top-3 before:left-0 after:w-full after:h-[4px]  after:rounded-lg after:bg-[#fb8961] after:block after:absolute after:-bottom-3 after:left-0 "></div>
+			<div onclick={() => hundleMobileNav()} onkeydown={() => hundleMobileNav()} tabindex=[1] role="button" class="w-[40px] h-[40px] flex justify-center items-center">
+				<div class="w-full h-[4px] rounded-lg bg-[#fb8961] relative before:w-full before:h-[4px] before:rounded-lg before:bg-[#fb8961] before:block before:absolute before:-top-3 before:left-0 after:w-full after:h-[4px]  after:rounded-lg after:bg-[#fb8961] after:block after:absolute after:-bottom-3 after:left-0 {mobileNav ? "bg-transparent before:transform before:rotate-[45deg] before:-bottom-2 after:transform after:-rotate-[45deg] after:-top-2" : ""} "></div>
 			</div>
 		</section>
 	</div>
 </header>
+<MobileNav {mobileNav} {hundleMobileNav} />
 
 <!-- 2xl:top-16 2xl:left-1/2 2xl:container 2xl:mx-auto 2xl:-translate-1/2 2xl:transform -->
 

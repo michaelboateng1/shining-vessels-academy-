@@ -63,9 +63,7 @@
 
 <section class="relative h-screen w-full">
 	{#each slideImages as slide, i }
-		<div class="w-full h-full absolute">
-			<img src={slide.image} alt={slide.text} class="w-full h-full obeject-cover absolute transition-opacity duration-1000 {i === currentSlideImage ? "z-10 opacity-100" : "z-0 opacity-0"}" />
-		</div>
+		<img src={slide.image} alt={slide.text} class="w-full h-full obeject-cover absolute top-0 left-0 transition-opacity duration-1000 {i === currentSlideImage ? "z-10 opacity-100" : "z-0 opacity-0"}" />
 	{/each}
 	<div class="overlay absolute z-10 h-full w-full"></div>
 	<div
