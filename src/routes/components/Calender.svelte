@@ -150,7 +150,6 @@
 
 	caption {
 		text-align: left;
-		/* padding: 1.5rem; */
 		background: linear-gradient(135deg, #04095d 0%, #fb8961 100%);
 		color: white;
 	}
@@ -228,23 +227,8 @@
 		transition-delay: 1.1s;
 	}
 
-	tbody tr:hover {
+	table.visible tbody tr:hover {
 		background: #f8f9fa;
 		transition: background 0.2s ease;
-		transform: scale(1.01);
-	}
-
-	/* Pulse animation for caption */
-	table.visible caption {
-		animation: pulse 2s ease-in-out infinite;
-	}
-
-	@keyframes pulse {
-		0%, 100% {
-			background: linear-gradient(135deg, #04095d 0%, #fb8961 100%);
-		}
-		50% {
-			background: linear-gradient(135deg, #04095d 10%, #fb8961 90%);
-		}
 	}
 </style>
