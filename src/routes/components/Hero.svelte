@@ -76,7 +76,7 @@
 
 		<p class="text-md sm:hidden">Lorem ipsum dolor sit amet.</p>
 
-		<div class=" mt-5 flex items-center justify-start gap-4 text-md font-bold text-white">
+		<div class=" mt-5 flex items-center justify-center sm:justify-start gap-4 text-md font-bold text-white">
 			<a href="/admission" class="hero-button rounded-md bg-[#fb8961] px-6 py-2 capitalize"
 				>Join us</a
 			>
