@@ -54,12 +54,11 @@
 		}
 	];
 
-	const message =
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia cupiditate quasi assumenda incidunt, repellendus labore non, nihil quas autem iusto optio. Assumenda in repellendus vero suscipit tempora laborum ad dicta quasi, neque nemo quae at, numquam sunt itaque id ea ducimus! Cum distinctio totam fuga molestias dicta quia quisquam!';
+	const message = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia cupiditate quasi assumenda incidunt, repellendus labore non, nihil quas autem iusto optio. Assumenda in repellendus vero suscipit tempora laborum ad dicta quasi, neque nemo quae at, numquam sunt itaque id ea ducimus! Cum distinctio totam fuga molestias dicta quia quisquam!';
 </script>
 
 <Heading {message}>
-	<h1 class="mb-4 text-5xl font-bold" data-aos="fade-in">
+	<h1 class="sm:mb-4 text-4xl sm:text-5xl font-bold" data-aos="fade-in">
 		About <span class="text-[#fb8961]">SVA</span>
 	</h1>
 </Heading>

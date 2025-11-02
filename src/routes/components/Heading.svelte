@@ -3,9 +3,9 @@
     export let message;
 </script>
 
-<section class="h-screen p-10 w-full flex flex-col text-white justify-end items-start">
+<section class="sm:h-screen h-[300px] p-5 sm:p-10 w-full flex flex-col text-white justify-end items-start">
     <slot />
-    <p class="text-md" data-aos="fade-in" data-aos-delay={200}>{message}</p>
+    <p class="text-md hidden sm:block" data-aos="fade-in">{message}</p>
 </section>
 
 <style>

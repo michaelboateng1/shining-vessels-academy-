@@ -26,7 +26,7 @@
 
 <main>
 	<Heading {message}>
-		<h1 class="mb-4 text-5xl font-bold" data-aos="fade-in">
+		<h1 class="mb-4 text-3xl sm:text-5xl font-bold" data-aos="fade-in">
 			Questions About <span class="text-[#fb8961]">SAV</span>
 		</h1>
 	</Heading>

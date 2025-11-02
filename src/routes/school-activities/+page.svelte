@@ -34,12 +34,12 @@
 
 <main>
     <Heading {message}>
-        <h1 class="text-5xl font-bold mb-4" data-aos="fade-in"><span class="text-[#fb8961]">SVA</span> Activities</h1>
+        <h1 class="text-3xl sm:text-5xl font-bold mb-4" data-aos="fade-in"><span class="text-[#fb8961]">SVA</span> Activities</h1>
     </Heading>
     <WhoWeAre />
     <WhereYouBelong />
     <ShapeDesign />
-    <div class="grid grid-cols-3 gap-8 container mx-auto px-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 container mx-auto px-5 lg:px-10">
         {#each schoolActivities as activity}
             <Activities {activity} />
         {/each}

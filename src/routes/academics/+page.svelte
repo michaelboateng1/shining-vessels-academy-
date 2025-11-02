@@ -7,7 +7,7 @@
 
 <main>
 	<Heading {message}>
-		<h1 class="mb-4 text-5xl font-bold" data-aos="fade-in">
+		<h1 class="mb-4 text-3xl sm:text-5xl font-bold" data-aos="fade-in">
 			About <span class="text-[#fb8961]">SVA</span> Academics
 		</h1>
 	</Heading>

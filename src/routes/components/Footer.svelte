@@ -32,7 +32,7 @@
             <ul class="space-y-2">
                 <li><a href="/">Home</a></li>
                 <li><a href="/about">About</a></li>
-                <li><a href="/programs">Programs</a></li>
+                <li><a href="/academics">Programs</a></li>
                 <li><a href="/calender">Events</a></li>
                 <li><a href="/contact">Contact</a></li>
             </ul>

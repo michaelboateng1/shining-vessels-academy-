@@ -7,7 +7,7 @@
 
 <main>
     <Heading {message}>
-        <h1 class="text-5xl font-bold mb-4" data-aos="fade-in"><span class="text-[#fb8961]">SVA</span> Events</h1>
+        <h1 class=" text-3xl sm:text-5xl font-bold mb-4" data-aos="fade-in"><span class="text-[#fb8961]">SVA</span> Events</h1>
     </Heading>
     <Calender />
 </main>

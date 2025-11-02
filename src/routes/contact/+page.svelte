@@ -7,7 +7,7 @@
 
 <main>
     <Heading {message}>
-        <h1 class="text-5xl font-bold mb-4" data-aos="fade-in">Contact <span class="text-[#fb8961]">SVA</span></h1>
+        <h1 class="text-3xl sm:text-5xl font-bold mb-4" data-aos="fade-in">Contact <span class="text-[#fb8961]">SVA</span></h1>
     </Heading>
     <ContactForm />
 </main>
