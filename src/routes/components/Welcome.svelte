@@ -60,7 +60,7 @@
                     class="sm:hidden text-sm text-[#333]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab vitae inventore dolores recusandae aliquam labore!</p>
                     <div 
                         in:fly="{{ y: 30, duration: 800, delay: 700 }}"
-                        class="flex items-center justify-between gap-5 hidden sm:block mt-5 lg:mt-3"
+                        class="flex items-center justify-between gap-5 hidden sm:block mt-5"
                     >
                         <a href="/about" class="text-white px-6 py-2 rounded-4xl bg-[#fb8961] font-semibold capitalize text-md border-2 border-[#fb8961] hover:bg-[#04095d] hover:border-[#04095d] transition-all duration-300">about us</a>
                         <a href="/admission" class="text-[#fb8961] text-md px-6 py-2 rounded-4xl border-2 border-[#fb8961] font-semibold capitalize hover:bg-[#04095d] hover:border-[#04095d] hover:text-white transition-all duration-300">apply to SVA</a>
@@ -72,8 +72,8 @@
                         in:fly="{{ y: 30, duration: 800, delay: 700 }}"
                         class="flex gap-5 sm:hidden mt-5"
                     >
-                        <a href="/about" class="text-white px-5 py-1 text-nowrap rounded-4xl bg-[#fb8961] font-semibold capitalize text-md border-2 border-[#fb8961] hover:bg-[#04095d] hover:border-[#04095d] transition-all duration-300">about us</a>
-                        <a href="/admission" class="text-[#fb8961] text-nowrap text-md px-5 py-1 rounded-4xl border-2 border-[#fb8961] font-semibold capitalize hover:bg-[#04095d] hover:border-[#04095d] hover:text-white transition-all duration-300">apply to SVA</a>
+                        <a href="/about" class="text-white px-5 py-1 lg:py-2 text-nowrap rounded-4xl bg-[#fb8961] font-semibold capitalize text-md border-2 border-[#fb8961] hover:bg-[#04095d] hover:border-[#04095d] transition-all duration-300">about us</a>
+                        <a href="/admission" class="text-[#fb8961] text-nowrap text-md px-5 py-1 lg:py-2 rounded-4xl border-2 border-[#fb8961] font-semibold capitalize hover:bg-[#04095d] hover:border-[#04095d] hover:text-white transition-all duration-300">apply to SVA</a>
             </div>
 
         </div>
