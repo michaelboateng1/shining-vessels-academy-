@@ -20,14 +20,14 @@
 		? 'glass-bg shadow-lg'
 		: 'remove-glass'}"
 >
-	<div class=" hidden sm:block absolute top-5 left-16 h-auto w-[80px] overflow-hidden rounded-full">
+	<div class=" hidden sm:block absolute top-13 lg:top-5 left-10 lg:left-16 h-auto w-[60px] lg:w-[80px] overflow-hidden rounded-full">
 		<a href="/"><img src={SchoolLogo} alt="School Logo" /></a>
 	</div>
 
-	<div class="ml-auto w-full sm:w-auto grid justify-items-end">
-		<section class="flex items-center w-full sm:w-auto justify-end">
-			<div class="flex items-center w-full sm:w-auto justify-around gap-10 bg-[#04095d] pr-3 text-white">
-				<div class="text-md hidden sm:flex w-full sm:w-auto items-center justify-evenly font-bold text-white">
+	<div class="ml-auto w-full lg:w-auto grid justify-items-end">
+		<section class="flex items-center w-full lg:w-auto justify-end">
+			<div class="flex items-center w-full lg:w-auto lg:justify-around justify-between gap-10 bg-[#04095d] lg:pr-3 text-white">
+				<div class="text-md hidden sm:flex items-center justify-evenly font-bold text-white">
 					<a
 						href="/testimonials"
 						class="flex items-center justify-around gap-2 bg-[#fb8961] px-3 py-2"
@@ -45,7 +45,7 @@
 					</a>
 				</div>
 
-				<div class="flex items-center justify-between py-2 sm:py-0 gap-8 text-sm font-semibold">
+				<div class="flex items-center justify-between py-2 sm:py-0 px-4 gap-8 text-sm font-semibold">
 					<a href="tel:+23345324242">+23345324242</a>
 					<a href="mailto:example@gmail.com">example@gmail.com</a>
 				</div>

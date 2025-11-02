@@ -55,7 +55,7 @@
 	<!-- <div bind:this={videoContainer} class="video-container"></div> -->
 	<div class="overlay absolute z-10 h-full w-full"></div>
 	<div
-		class="absolute z-10 flex h-full sm:w-[100ch] container  mx-auto text-center sm:text-left flex-col justify-center space-y-5 px-5 sm:px-0 sm:pl-20 text-white"
+		class="absolute z-10 flex h-full sm:w-[100ch] container  mx-auto text-center sm:text-left flex-col justify-center space-y-5 px-5 sm:px-10 lg:pl-20 text-white"
 	>
 		<h2 class="hero-heading-1 custom-text-shadow sm:mt-24 text-3xl sm:text-5xl font-bold text-white">
 			<span class="hero-word inline-block italic">Ready</span>
