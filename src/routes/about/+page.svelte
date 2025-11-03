@@ -8,6 +8,7 @@
 	import studentsInClass4 from '$lib/assets/images/studentsPlaying2.jpg';
 	import studentsInClass5 from '$lib/assets/images/classRoom.jpg';
 	import studentsInClass6 from '$lib/assets/images/playGround3.jpg';
+	import schoolWall from '$lib/assets/images/schoolWall.jpg';
 
 	const cards = [
 		{
@@ -57,7 +58,7 @@
 	const message = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia cupiditate quasi assumenda incidunt, repellendus labore non, nihil quas autem iusto optio. Assumenda in repellendus vero suscipit tempora laborum ad dicta quasi, neque nemo quae at, numquam sunt itaque id ea ducimus! Cum distinctio totam fuga molestias dicta quia quisquam!';
 </script>
 
-<Heading {message}>
+<Heading {message} backgroundImage={schoolWall}>
 	<h1 class="sm:mb-4 text-4xl sm:text-5xl font-bold" data-aos="fade-in">
 		About <span class="text-[#fb8961]">SVA</span>
 	</h1>
