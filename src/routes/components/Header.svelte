@@ -42,7 +42,7 @@
 						<span>Testimonials</span>
 					</a>
 					<a href="/faq" class="ml-5 flex items-center justify-around gap-2 px-3 py-2">
-						<i class="fa-solid fa-house-chimney text-xl"></i>
+						<i class="fa-solid fa-circle-info text-xl"></i>
 						<span>FAQs</span>
 					</a>
 					<a href="/calender" class="ml-5 flex items-center justify-around gap-2 px-3 py-2">

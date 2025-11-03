@@ -1,14 +1,16 @@
 <script>
 	import Heading from '../components/Heading.svelte';
-	import classRoom2 from '$lib/assets/images/classRoom2.jpg';
+	import Academics from '../components/Academics.svelte';
+
+	import backgroundImage from '$lib/assets/images/schoolWall.jpg';
 
 	const message =
-		'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia cupiditate quasi assumenda incidunt, repellendus labore non, nihil quas autem iusto optio. Assumenda in repellendus vero suscipit tempora laborum ad dicta quasi, neque nemo quae at, numquam sunt itaque id ea ducimus! Cum distinctio totam fuga molestias dicta quia quisquam!';
+		'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore adipisci veritatis, ullam perspiciatis debitis excepturi ipsum dolores error maiores perferendis.';
 </script>
 
 <main>
-	<Heading {message} backgroundImage={classRoom2}>
-		<h1 class="mb-4 text-3xl sm:text-5xl font-bold" data-aos="fade-in">
+	<Heading {message} {backgroundImage}>
+		<h1 class="mb-4 text-3xl font-bold sm:text-5xl" data-aos="fade-in">
 			About <span class="text-[#fb8961]">SVA</span> Academics
 		</h1>
 	</Heading>
