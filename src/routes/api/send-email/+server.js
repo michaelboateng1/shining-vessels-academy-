@@ -1,10 +1,9 @@
-import nodemailer from 'nodemailer'
-import MailchimpTransport from 'nodemailer-mailchimp-transactional';
+import nodemailer from 'nodemailer';
 
-export async function POST({request}){
-    const {firstName, lastName, email, phoneNumber, message} = await request.json();
+export async function POST({ request }) {
+	const { firstName, lastName, email, phoneNumber, message } = await request.json();
 
-    const body = `<!DOCTYPE html>
+	const body = `<!DOCTYPE html>
                     <html lang="en">
                     <head>
                     <meta charset="UTF-8" />
@@ -19,7 +18,7 @@ export async function POST({request}){
 
                             <!-- Container -->
                             <table width="600" cellspacing="0" cellpadding="0" border="0" style="background-color:#ffffff;border-radius:10px;overflow:hidden;box-shadow:0 2px 10px rgba(0,0,0,0.08);">
-                            
+
                             <!-- Header -->
                             <tr>
                                 <td align="center" style="background-color:#04095d;color:#ffffff;padding:24px;">
@@ -84,35 +83,46 @@ export async function POST({request}){
 
                     </body>
                     </html>
-`
-    try{
-        const transporter = nodemailer.createTransport({
-            service: "gmail",
-            auth: {
-                user: "michaelboateng064@gmail.com",
-                pass: "cvlc lfyp ufdy ojgj"
-            }
-        });
-        const mailOptions = {
-            from: "michaelboateng064@gmail.com",
-            to: "michaelgeneral064@gmail.com",
-            subject: "Shining Vessels Academy",
-            text: "Somthing not important",
-            html: body,
-            inline_css: true,
-            tags: ['contact', 'message','admin','school','website','email','form','contact-form','website-form','website-message','website-contact'],
-            important: true,
-            metadata: {
-                campaign_id: 'contact-2024',
-                user_segment: 'contact'
-              },
-              auto_text: true,
-        };
-    
-        transporter.sendMail(mailOptions);
-        return new Response(JSON.stringify({message: "Email sent successfully"}), {status: 200})
-    }
-    catch(err){
-        return new Response(JSON.stringify({error: err}), {status: 500})
-    }
+`;
+	try {
+		const transporter = nodemailer.createTransport({
+			service: 'gmail',
+			auth: {
+				user: 'michaelboateng064@gmail.com',
+				pass: 'cvlc lfyp ufdy ojgj'
+			}
+		});
+		const mailOptions = {
+			from: 'michaelboateng064@gmail.com',
+			to: 'michaelgeneral064@gmail.com',
+			subject: 'Shining Vessels Academy',
+			text: 'Somthing not important',
+			html: body,
+			inline_css: true,
+			tags: [
+				'contact',
+				'message',
+				'admin',
+				'school',
+				'website',
+				'email',
+				'form',
+				'contact-form',
+				'website-form',
+				'website-message',
+				'website-contact'
+			],
+			important: true,
+			metadata: {
+				campaign_id: 'contact-2024',
+				user_segment: 'contact'
+			},
+			auto_text: true
+		};
+
+		transporter.sendMail(mailOptions);
+		return new Response(JSON.stringify({ message: 'Email sent successfully' }), { status: 200 });
+	} catch (err) {
+		return new Response(JSON.stringify({ error: err }), { status: 500 });
+	}
 }
