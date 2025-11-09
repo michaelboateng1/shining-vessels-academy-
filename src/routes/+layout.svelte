@@ -6,6 +6,7 @@
 	import favicon from '$lib/assets/images/310428482_545284817602681_4675978038248228164_n.jpg';
 	import Footer from './components/Footer.svelte';
 	import Header from './components/Header.svelte';
+	import ChatBot from './components/ChatBot.svelte';
 
 	let { children } = $props();
 
@@ -24,6 +25,7 @@
 </svelte:head>
 
 <Header />
+<ChatBot />
 {@render children?.()}
 <Footer />
 
