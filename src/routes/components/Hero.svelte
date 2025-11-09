@@ -3,7 +3,7 @@
 	import { gsap } from 'gsap';
 	import HeroNav from './HeroNav.svelte';
 
-	import {heroSlideImages} from "$lib/";
+	import { heroSlideImages } from '$lib/';
 
 	const slideImages = heroSlideImages;
 
@@ -13,13 +13,10 @@
 		currentSlideImage = (currentSlideImage + 1) % slideImages.length;
 	}, 4050);
 
-
 	onMount(() => {
-
 		const tl = gsap.timeline({
 			defaults: { ease: 'power3.out' },
-			onComplete: () => {
-			}
+			onComplete: () => {}
 		});
 
 		tl.from('.hero-word', {
@@ -38,17 +35,7 @@
 					duration: 1
 				},
 				'-=0.6'
-			)
-			.from(
-				'.hero-description',
-				{
-					y: 50,
-					opacity: 0,
-					duration: 0.8
-				},
-				'-=0.4'
-			)
-			.from(
+			).from(
 				'.hero-button',
 				{
 					y: 30,
@@ -62,14 +49,23 @@
 </script>
 
 <section class="relative h-screen w-full">
-	{#each slideImages as slide, i }
-		<img src={slide.image} alt={slide.text} class="w-full h-full obeject-cover absolute top-0 left-0 transition-opacity duration-1000 {i === currentSlideImage ? "z-10 opacity-100" : "z-0 opacity-0"}" />
+	{#each slideImages as slide, i}
+		<img
+			src={slide.image}
+			alt={slide.text}
+			class="obeject-cover absolute top-0 left-0 h-full w-full transition-opacity duration-1000 {i ===
+			currentSlideImage
+				? 'z-10 opacity-100'
+				: 'z-0 opacity-0'}"
+		/>
 	{/each}
 	<div class="overlay absolute z-10 h-full w-full"></div>
 	<div
-		class="absolute z-10 flex h-full sm:w-[100ch] container  mx-auto text-center sm:text-left flex-col justify-center space-y-5 px-5 sm:px-10 lg:pl-20 text-white"
+		class="absolute z-10 container mx-auto flex h-full flex-col justify-center space-y-5 px-5 text-center text-white sm:w-[100ch] sm:px-10 sm:text-left lg:pl-20"
 	>
-		<h2 class="hero-heading-1 custom-text-shadow sm:mt-24 text-3xl sm:text-5xl font-bold text-white">
+		<h2
+			class="hero-heading-1 custom-text-shadow text-3xl font-bold text-white sm:mt-24 sm:text-5xl"
+		>
 			<span class="hero-word inline-block italic">Ready</span>
 			<span class="hero-word inline-block italic">to</span>
 			<span class="hero-word inline-block italic">start</span>
@@ -77,18 +73,16 @@
 			<span class="hero-word inline-block italic">journey</span>
 			<span class="hero-word inline-block italic">at</span>
 		</h2>
-		<h1 class="hero-heading-2 custom-text-shadow text-3xl sm:text-5xl font-bold text-[#fb8961]">
+		<h1 class="hero-heading-2 custom-text-shadow text-3xl font-bold text-[#fb8961] sm:text-5xl">
 			Shining Vessels?
 		</h1>
-		<p class="text-md hidden sm:block font-semibold">
-			Lorem ipsum dolor, sit amet consectetur adipisicing elit. Esse perspiciatis exercitationem
-			nulla animi ipsum perferendis incidunt qui quia cumque, dicta sit hic tempora labore vero
-			libero fuga eveniet totam vitae.
+		<p class="text-md font-semibold">
+			Empowering young minds with knowledge, character, and creativity.
 		</p>
 
-		<p class="text-md sm:hidden">Lorem ipsum dolor sit amet.</p>
-
-		<div class=" mt-5 flex items-center justify-center sm:justify-start gap-4 text-md font-bold text-white">
+		<div
+			class=" text-md mt-5 flex items-center justify-center gap-4 font-bold text-white sm:justify-start"
+		>
 			<a href="/admission" class="hero-button rounded-md bg-[#fb8961] px-6 py-2 capitalize"
 				>Join us</a
 			>
@@ -102,14 +96,10 @@
 
 <style>
 	.overlay {
-		background: linear-gradient(
-			to bottom,
-			hsla(0, 9%, 0%, 0.5),
-			hsla(0, 9%, 0%, 0.5)
-		);
+		background: linear-gradient(to bottom, hsla(0, 9%, 0%, 0.5), hsla(0, 9%, 0%, 0.5));
 	}
 
-	h1{
+	h1 {
 		font-style: oblique;
 	}
 

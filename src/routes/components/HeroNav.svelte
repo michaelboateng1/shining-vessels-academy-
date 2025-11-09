@@ -8,11 +8,11 @@
 			icon: 'fa-solid fa-school sm:pt-10 pt-5 text-5xl sm:text-6xl text-[#04095d]'
 		},
 		{
-			title: 'Academics',
+			title: 'Innovation & Technology',
 			icon: 'fa-solid fa-brain sm:pt-10 pt-5 text-5xl sm:text-6xl text-[#04095d]'
 		},
 		{
-			title: 'Academics',
+			title: 'Moral & Academic Growth',
 			icon: 'fa-solid fa-book sm:pt-10 pt-5 text-5xl sm:text-6xl text-[#04095d]'
 		}
 	];
