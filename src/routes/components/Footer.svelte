@@ -52,6 +52,10 @@
 </footer>
 
 <style>
+    ul{
+        list-style-image: url('../../lib/assets/arrow-right2-svgrepo-com.svg');
+    }
+
     li:hover a,
     li:hover{
         text-decoration: underline;
