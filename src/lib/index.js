@@ -88,3 +88,31 @@ export const schoolActivities = [
 		title: 'School Competetions'
 	}
 ];
+
+
+import academicsImage1 from "$lib/assets/images/students2.jpg";
+import academicsImage2 from "$lib/assets/images/entertaimment4.jpg";
+import academicsImage3 from "$lib/assets/images/competetion5.jpg";
+import academicsImage4 from "$lib/assets/images/studentsPlaying.jpg";
+export const academics = [
+	{
+		image: academicsImage1,
+		title: "Lorem, ipsum dolor.",
+		body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nulla veniam doloremque accusamusaut! Distinctio consequuntur minus beatae odio unde?"
+	},
+	{
+		image: academicsImage2,
+		title: "Lorem, ipsum dolor.",
+		body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nulla veniam doloremque accusamusaut! Distinctio consequuntur minus beatae odio unde?"
+	},
+	{
+		image: academicsImage3,
+		title: "Lorem, ipsum dolor.",
+		body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nulla veniam doloremque accusamusaut! Distinctio consequuntur minus beatae odio unde?"
+	},
+	{
+		image: academicsImage4,
+		title: "Lorem, ipsum dolor.",
+		body: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad nulla veniam doloremque accusamusaut! Distinctio consequuntur minus beatae odio unde?"
+	},
+]
