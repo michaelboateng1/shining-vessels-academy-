@@ -1,8 +1,9 @@
 import { GoogleGenAI } from '@google/genai';
+import {GEMINI_API_KEY} from "$env/static/private";
 
 
 export async function POST({ request }) {
-	const ai = new GoogleGenAI({ apiKey: 'AIzaSyCYa8Vf9ciPZ5am0ffMmDKY2hPdovFPwug' });
+	const ai = new GoogleGenAI({ apiKey: GEMINI_API_KEY });
 
 	const prompt = await request.text();
 	console.log('Received prompt:', prompt);

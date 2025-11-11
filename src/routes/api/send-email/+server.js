@@ -1,4 +1,7 @@
 import nodemailer from 'nodemailer';
+import {GMAIL_USER_NAME} from "$env/static/private";
+import {GMAIL_PASSWORD} from "$env/static/private";
+import {RECEIVERS_EMAIL_ADDRESS} from "$env/static/private";
 
 export async function POST({ request }) {
 	const { firstName, lastName, email, phoneNumber, message } = await request.json();
@@ -88,13 +91,13 @@ export async function POST({ request }) {
 		const transporter = nodemailer.createTransport({
 			service: 'gmail',
 			auth: {
-				user: 'michaelboateng064@gmail.com',
-				pass: 'cvlc lfyp ufdy ojgj'
+				user: GMAIL_USER_NAME,
+				pass: GMAIL_PASSWORD
 			}
 		});
 		const mailOptions = {
-			from: 'michaelboateng064@gmail.com',
-			to: 'michaelgeneral064@gmail.com',
+			from: GMAIL_USER_NAME,
+			to: RECEIVERS_EMAIL_ADDRESS,
 			subject: 'Shining Vessels Academy',
 			text: 'Somthing not important',
 			html: body,
