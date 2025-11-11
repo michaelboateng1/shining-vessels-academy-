@@ -13,13 +13,13 @@
 		<div
 	class="absolute top-1/2 left-0 z-20 flex h-auto w-full translate-y-1/2 items-center justify-between"
 >
-			<div onclick={() => scrollUp()} class="flex h-10 w-10 items-center justify-center">
+			<div onclick={() => scrollUp()} tabindex="0" role="button" onkeydown={() => scrollUp} class="flex h-10 w-10 items-center justify-center">
 				<i
 					class="fa-regular fa-circle-up cursor-pointer text-3xl text-[#fb8961] transition-colors duration-300 hover:text-[#04095d]"
 					></i
 				>
 			</div>
-			<div onclick={() => scrollDown()} class="flex h-10 w-10 items-center justify-center">
+			<div onclick={() => scrollDown()} tabindex="0" role="button" onkeydown={() => scrollDown} class="flex h-10 w-10 items-center justify-center">
 				<i
 					class="fa-regular fa-circle-down cursor-pointer text-3xl text-[#fb8961] transition-colors duration-300 hover:text-[#04095d]"
 					></i

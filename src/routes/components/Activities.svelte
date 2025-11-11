@@ -1,12 +1,12 @@
 <script>
     export let activity;
+    export let i;
 
-    console.log(activity);
     const {image, title} = activity;
 </script>
 
 <section>
-    <div class="w-full h-auto">
+    <div data-aos="flip-left" data-aos-delay={i * 150} class="w-full h-auto">
         <figure class="relative">
             <img src={image} alt="" width="100px" height="80px" class="w-full h-full object-cover" />
             <div class="absolute w-full h-full top-0 left-0"></div>

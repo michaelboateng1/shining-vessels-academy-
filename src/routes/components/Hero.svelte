@@ -104,14 +104,9 @@
 	}
 
 	section {
-		/* background: url('../../lib/assets/images/schoolImage1.jpg'); */
 		background-repeat: no-repeat;
 		background-position: center;
 		background-size: cover;
 		background-attachment: fixed;
-	}
-
-	.custom-text-shadow {
-		/* text-shadow: 2px 2px 4px #fb8961; */
 	}
 </style>

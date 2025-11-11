@@ -22,9 +22,9 @@
 	<WhoWeAre />
 	<WhereYouBelong />
 	<ShapeDesign />
-	<div class="container mx-auto grid grid-cols-1 gap-8 px-5 sm:grid-cols-2 lg:grid-cols-3 lg:px-10">
-		{#each schoolActivities as activity}
-			<Activities {activity} />
+	<div class="container mx-auto grid grid-cols-1 gap-8 px-5 sm:grid-cols-2 lg:grid-cols-3 lg:px-10 mt-60">
+		{#each schoolActivities as activity, i}
+			<Activities {activity} {i} />
 		{/each}
 	</div>
 </main>

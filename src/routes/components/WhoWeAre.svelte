@@ -26,10 +26,10 @@
 </script>
 
 <section class="mt-20 container mx-auto">
-    <h2 class="customShadow mb-[3rem] text-center sm:text-[2.5rem] font-bold text-[#04095d] capitalize">Who we are</h2>
-    <div class="w-full sm:w-[600px] h-auto relative mx-auto border-l-8 border-r-8 border-[#04095d] rounded-lg">
+    <h2 data-aos="fade-in" class="customShadow mb-[3rem] text-center sm:text-[2.5rem] font-bold text-[#04095d] capitalize">Who we are</h2>
+    <div data-aos="fade-right" class="w-full sm:w-[600px] h-auto relative mx-auto border-l-8 border-r-8 border-[#04095d] rounded-lg">
         <div class="w-full h-auto" bind:this={videoContainer} ></div>
-        <div bind:this={playBtn} class="w-[120px] transition-all duration-300 cursor-pointer flex justify-center items-center h-[120px] rounded-full border-4 border-white absolute top-1/2 left-1/2 transform -translate-1/2">
+        <div data-aos="fade-in" bind:this={playBtn} class="w-[120px] transition-all duration-300 cursor-pointer flex justify-center items-center h-[120px] rounded-full border-4 border-white absolute top-1/2 left-1/2 transform -translate-1/2">
             <div class="w-[40px] h-[40px] bg-white play"></div>
         </div>
     </div>

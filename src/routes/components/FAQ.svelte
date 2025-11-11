@@ -20,6 +20,9 @@
 			<div class={i === current ? 'rounded-lg shadow-sm' : ''}>
 				<div
 					onclick={() => toggleFaq(i)}
+					tabindex="0"
+					role="button"
+					onkeydown={() => toggleFaq}
 					class=" rounded-t-lg border-l-4 border-[#ccc] bg-[#04095d] p-5 text-lg text-white transition-all duration-100 {i !==
 					current
 						? 'rounded-lg shadow-sm'
