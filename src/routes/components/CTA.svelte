@@ -11,7 +11,6 @@
 
 		setTimeout(() => {
 			if (!sectionElement || !headingElement) {
-				console.error('Elements not found');
 				return;
 			}
 

@@ -18,7 +18,6 @@
             const body = document.querySelector('body');
             body.style.overflow = window.innerWidth < 629 && openChat ? 'hidden' : '';
             window.addEventListener("resize", () => {
-                console.log(window.innerWidth < 629 && openChat)
                 body.style.overflow = window.innerWidth < 629 && openChat ? 'hidden' : '';
             })
     }
