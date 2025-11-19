@@ -47,9 +47,9 @@
     <h2 data-aos="fade-in" data-aos-delay={150} class="mb-5 text-3xl sm:text-5xl font-semibold text-[#343a40]">About Our Admission</h2>
     <div class="flex flex-col sm:flex-row justify-between gap-8">
         <div class="sm:w-[60ch] text-[#343a40] py-4" data-aos="fade-in" data-aos-delay={200}>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores dolorum mollitia cupiditate delectus vero doloribus quos, inventore repudiandae tempore voluptates blanditiis harum exercitationem quibusdam quaerat adipisci, ut impedit placeat odit ipsam a fugiat. Dolores corporis beatae quo consequatur quaerat assumenda sequi voluptas vero maxime laborum iste praesentium, dolorem fuga veniam?</p>
-            <p class="pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum illum nulla, veritatis fugit cumque nisi, cupiditate ullam cum veniam ea quidem nemo pariatur esse ab repellendus quibusdam minus. Voluptatem culpa nemo officiis, iusto autem tempore quae vitae nobis ut animi corrupti voluptatibus. Voluptate ratione delectus sunt? Accusantium corporis eius repellat!</p>
-            <a href="/faq" class="py-2 italic inline-block mt-5 border-2 px-5 bg-[#fb8961] text-white font-semibold">Freaquently Asked Questions</a>
+            <p>At Shining Vessels Academy, we welcome students who are eager to explore the exciting world of technology and cognitive development. Our admission process is designed to understand each child's unique potential and how our programs can help them thrive. We offer rolling admissions throughout the year, with new intakes at the beginning of each academic term. Our dedicated admissions team is here to guide you through every step of the process.</p>
+            <p class="pt-4">We accept students from all backgrounds who show enthusiasm for learning and technology. Our programs are tailored for different age groups and skill levels, ensuring every child receives the right level of challenge and support. Financial aid and scholarship opportunities are available for qualifying students. Join our community of young innovators and give your child the gift of future-ready education.</p>
+            <a href="/faq" class="py-2 italic inline-block mt-5 border-2 px-5 bg-[#fb8961] text-white font-semibold hover:bg-[#e67a4d] transition-colors">Frequently Asked Questions</a>
         </div>
 
         <div data-aos="slide-up" class="sm:w-1/2 w-full h-auto shadow-2xl relative cursor-pointer overflow-hidden border-l-8 border-r-8 border-[#04095d] rounded-lg video">

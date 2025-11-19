@@ -5,7 +5,7 @@
 	import backgroundImage from '$lib/assets/images/schoolWall.jpg';
 
 	const message =
-		'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore adipisci veritatis, ullam perspiciatis debitis excepturi ipsum dolores error maiores perferendis.';
+		'At Shining Vessels Academy, we offer a cutting-edge curriculum focused on Coding, Abacus Training, and Robotics. Our innovative programs are designed to develop critical thinking, problem-solving, and technical skills that prepare students for the digital future.';
 </script>
 
 <main>

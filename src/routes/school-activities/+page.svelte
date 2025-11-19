@@ -10,7 +10,7 @@
 	import { schoolActivities } from '$lib';
 
 	const message =
-		'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cum atque quisquam voluptatibus possimus illo, autem minus earum eligendi nulla veritatis.';
+		'Explore our dynamic range of activities designed to nurture young minds in technology and cognitive development. From coding challenges to abacus competitions and robotics workshops, our programs foster creativity, critical thinking, and problem-solving skills in a fun, engaging environment.';
 </script>
 
 <main>

@@ -53,11 +53,11 @@
                         in:fade="{{ duration: 1000, delay: 500 }}"
                         class="lg:w-[50ch] hidden sm:block text-md text-[#333]"
                     >
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta, ea dolor vel sint non tempora eveniet! Ea libero molestias quisquam beatae qui unde quae dignissimos, laboriosam sit saepe provident, accusamus perspiciatis officia quo! Distinctio sapiente repellendus atque, temporibus deleniti dolore fugit vero praesentium! Quis quaerat magnam dolores eligendi. Quo, neque?
+                        Welcome to Shining Vessels Academy, where innovation meets education. As a premier learning institution, we are dedicated to developing future-ready skills through expert instruction in Coding, Abacus Training, and Robotics. Join us to unlock your child's potential in the digital age.
                     </p>
     
                     <p in:fade="{{ duration: 1000, delay: 500 }}"
-                    class="sm:hidden text-sm text-[#333]"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, ab vitae inventore dolores recusandae aliquam labore!</p>
+                    class="sm:hidden text-sm text-[#333]"> Welcome to Shining Vessels Academy - your gateway to coding, abacus training, and robotics excellence.</p>
                     <div 
                         in:fly="{{ y: 30, duration: 800, delay: 700 }}"
                         class="flex items-center justify-between gap-5 hidden sm:block mt-5"

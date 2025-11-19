@@ -38,36 +38,40 @@
         <table class="rounded-bl-lg rounded-br-lg" bind:this={tables[0]} data-index="0" class:visible={isVisible[0]}>
             <caption class="py-2 px-5 rounded-tl-lg rounded-tr-lg">
                 <h3>Upcoming Events</h3>
-                <p>October 2025</p>
+                <p>November 2025</p>
             </caption>
             <tbody>
                 <tr>
-                    <th>October 5, 2025</th>
-                    <th>Sunday</th>
-                </tr>
-                <tr>
-                    <td>6:00am - 4:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Graduation Day</td>
-                </tr>
-                <tr>
-                    <td>6:00am - 4:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Graduation Day</td>
-                </tr>
-                <tr>
-                    <th>October 3, 2025</th>
-                    <th>Monday</th>
-                </tr>
-                <tr>
-                    <td>6:00am - 4:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Graduation Day</td>
-                </tr>
-                <tr>
-                    <th>October 1, 2025</th>
+                    <th>November 18, 2025</th>
                     <th>Tuesday</th>
                 </tr>
                 <tr>
-                    <td>6:00am - 4:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Graduation Day</td>
+                    <td>9:00am - 12:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Coding Bootcamp for Beginners</td>
+                </tr>
+                <tr>
+                    <th>November 22, 2025</th>
+                    <th>Saturday</th>
+                </tr>
+                <tr>
+                    <td>10:00am - 2:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Robotics Workshop</td>
+                </tr>
+                <tr>
+                    <th>November 25, 2025</th>
+                    <th>Tuesday</th>
+                </tr>
+                <tr>
+                    <td>2:00pm - 4:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Abacus Competition</td>
+                </tr>
+                <tr>
+                    <th>November 30, 2025</th>
+                    <th>Sunday</th>
+                </tr>
+                <tr>
+                    <td>9:00am - 1:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#04095d] before:mr-4">Open House & Demo Day</td>
                 </tr>
             </tbody>
         </table>
@@ -79,32 +83,36 @@
             </caption>
             <tbody>
                 <tr>
-                    <th>September 1, 2025</th>
-                    <th>Monday</th>
+                    <th>October 28, 2025</th>
+                    <th>Tuesday</th>
+                </tr>
+                <tr>
+                    <td>3:00pm - 5:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Parent-Teacher Conference</td>
+                </tr>
+                <tr>
+                    <th>October 21, 2025</th>
+                    <th>Tuesday</th>
                 </tr>
                 <tr>
                     <td>10:00am - 12:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Visiting Data</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Math Olympiad Competition</td>
                 </tr>
                 <tr>
-                    <th>September 1, 2025</th>
-                    <th>Monday</th>
+                    <th>October 14, 2025</th>
+                    <th>Tuesday</th>
                 </tr>
                 <tr>
-                    <td>10:00am - 12:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Visiting Data</td>
+                    <td>9:00am - 12:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Coding Workshop for Kids</td>
                 </tr>
                 <tr>
-                    <td>10:00am - 12:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Visiting Data</td>
+                    <th>October 7, 2025</th>
+                    <th>Tuesday</th>
                 </tr>
                 <tr>
-                    <td>10:00am - 12:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Visiting Data</td>
-                </tr>
-                <tr>
-                    <td>10:00am - 12:00pm</td>
-                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Visiting Data</td>
+                    <td>1:00pm - 4:00pm</td>
+                    <td class="before:content-[' '] before:w-3 before:h-3 before:inline-block before:rounded-full before:bg-[#fb8961] before:mr-4">Robotics Demo Day</td>
                 </tr>
             </tbody>
         </table>

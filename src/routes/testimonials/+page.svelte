@@ -5,7 +5,7 @@
 	import backgroundImage from '$lib/assets/images/studentsPlaying2.jpg';
 
 	const message =
-		'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore adipisci veritatis, ullam perspiciatis debitis excepturi ipsum dolores error maiores perferendis.';
+		'Discover what parents and students are saying about their transformative experiences with our Coding, Abacus, and Robotics programs. These testimonials showcase the real impact of our innovative approach to technology education.';
 </script>
 
 <main>

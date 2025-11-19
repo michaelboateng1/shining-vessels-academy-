@@ -115,9 +115,7 @@
 				onclick={() => sendMessage()}
 				type="button"
 				value="Submit"
-				class=" cursor-pointer rounded-4xl border-2 border-[#fb8961] px-5 py-1 font-semibold text-[#fb8961] transition-colors duration-300 hover:bg-[#fb8961] hover:text-white focus:border-[#fb8961] active:bg-white active:text-[#fb8961] sm:py-2"
-				data-aos="zoom-in"
-				data-aos-delay={250}>Submit</button
+				class=" cursor-pointer rounded-4xl border-2 border-[#fb8961] px-5 py-1 font-semibold text-[#fb8961] transition-colors duration-300 hover:bg-[#fb8961] hover:text-white focus:border-[#fb8961] active:bg-white active:text-[#fb8961] sm:py-2">Submit</button
 			>
 		</div>
 	</form>

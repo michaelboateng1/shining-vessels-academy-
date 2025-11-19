@@ -7,7 +7,7 @@
 	import { faqs } from '$lib';
 
 	const message =
-		'Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reprehenderit, commodi.';
+		'Find answers to common questions about our programs in Coding, Abacus Training, and Robotics. If you can\'t find what you\'re looking for, feel free to contact us directly.';
 </script>
 
 <main>

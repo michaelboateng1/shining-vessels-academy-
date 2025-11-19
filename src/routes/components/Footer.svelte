@@ -25,7 +25,7 @@
     <div class="flex flex-col sm:flex-row sm:items-center justify-between gap-10 py-20 px-10" aria-label="Footer">
         <div aria-label="Footer" class="sm:w-[50ch]">
             <h2 class="mb-2 text-[#fb8961] font-bold text-xl">About us</h2>
-            <p class="space-y-2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia nihil dolorem aperiam officiis voluptatum molestias sit doloribus animi quisquam quibusdam! Velit officia molestias nesciunt voluptatem, blanditiis deleniti natus asperiores beatae eaque, inventore quos reiciendis enim! Delectus maiores a neque quia?</p>
+            <p class="space-y-2">Shining Vessels Academy is a premier educational institution dedicated to developing future-ready skills. We provide comprehensive programs in Coding, Abacus Training, and Robotics, preparing students for success in the digital age with strong analytical thinking and problem-solving abilities.</p>
         </div>
         <div aria-label="Footer">
             <h2 class="mb-2 text-[#fb8961] font-bold text-xl">Quick Links</h2>

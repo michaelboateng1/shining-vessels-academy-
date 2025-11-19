@@ -7,18 +7,24 @@
 	const testimonies = [
 		{
 			img: image1,
-			alt: 'Image1',
-			text: 'Boateng ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt iure commodi sed! Porro ipsum nisi deleniti consequuntur quisquam nemo delectus minus neque vero magni voluptas explicabo quibusdam, ut, quaerat eveniet inventore molestiae nulla officia? Inventore odit ea dolorem eum quod, expedita, libero quidem facere necessitatibus qui, quasi minima nesciunt?'
+			alt: 'David Thompson',
+			name: 'David Thompson',
+			role: 'Parent of 12-year-old student',
+			text: 'My son\'s confidence in math has skyrocketed since starting the Abacus program at Shining Vessels Academy. The teaching methods are engaging and effective. He now excels in school and enjoys problem-solving challenges.'
 		},
 		{
 			img: image2,
-			alt: 'Image1',
-			text: 'Hey ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt iure commodi sed! Porro ipsum nisi deleniti consequuntur quisquam nemo delectus minus neque vero magni voluptas explicabo quibusdam, ut, quaerat eveniet inventore molestiae nulla officia? Inventore odit ea dolorem eum quod, expedita, libero quidem facere necessitatibus qui, quasi minima nesciunt?'
+			alt: 'Sarah Martinez',
+			name: 'Sarah Martinez',
+			role: 'Software Developer, Tech Innovations',
+			text: 'The coding program at Shining Vessels Academy gave me the perfect foundation to pursue a career in technology. The instructors are patient and knowledgeable, making complex concepts easy to understand. I\'m now working as a software developer!'
 		},
 		{
 			img: image3,
-			alt: 'Image1',
-			text: 'Michael ipsum dolor sit amet consectetur adipisicing elit. Adipisci sunt iure commodi sed! Porro ipsum nisi deleniti consequuntur quisquam nemo delectus minus neque vero magni voluptas explicabo quibusdam, ut, quaerat eveniet inventore molestiae nulla officia? Inventore odit ea dolorem eum quod, expedita, libero quidem facere necessitatibus qui, quasi minima nesciunt?'
+			alt: 'Michael Chen',
+			name: 'Michael Chen',
+			role: 'High School Student',
+			text: 'The Robotics program is amazing! I learned how to build and program robots from scratch. It sparked my interest in engineering and helped me win first place in a regional science competition.'
 		}
 	];
 

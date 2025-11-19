@@ -5,11 +5,11 @@
 
 <section class="container mx-auto mt-20 px-5 sm:px-10 mb-60">
     <div data-aos="fade-in" class="px-5 sm:space-y-4 text-[#343a40]">
-        <h2 class="text-[#04095d] font-semibold text-xl mb-2">Where you belong.</h2>
-        <p class="text-[#04095d] font-bold mb-5">Lorem, ipsum. Lorem, ipsum.</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum temporibus dolor ullam, dolores quos, voluptates et nam molestiae porro dolorum ducimus soluta tempore? Rem quia vitae minima laboriosam. Temporibus, dignissimos repudiandae ab possimus illo nobis dolore nesciunt rerum sint recusandae?</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, possimus!</p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla facere modi blanditiis, explicabo cumque molestiae nostrum nemo velit laborum deserunt!</p>
+        <h2 class="text-[#04095d] font-semibold text-xl mb-2">Where Young Minds Thrive</h2>
+        <p class="text-[#04095d] font-bold mb-5">A Community of Future Innovators</p>
+        <p>At Shining Vessels Academy, we believe every child has unique potential waiting to be unlocked. Our nurturing environment combines cutting-edge technology education with personalized attention, creating a space where students can explore, create, and excel in coding, abacus, and robotics.</p>
+        <p>Our dedicated educators and state-of-the-art facilities provide the perfect setting for hands-on learning and innovation.</p>
+        <p>Join our community of curious minds and passionate learners, where we transform potential into excellence through technology and cognitive development.</p>
     </div>
     <div class="flex flex-col sm:flex-row gap-5 w-full mt-8 h-[350px]">
         <div class="w-full h-full">

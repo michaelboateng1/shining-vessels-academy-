@@ -13,50 +13,44 @@
 
 	const cards = [
 		{
-			title: 'Mission',
-			description:
-				'Our mission is to create a transformative learning experience that is engaging, globally oriented, and builds a strong STEAM foundation for college and career readiness. We aim to provide a quality education for all students by focusing on both heart and mind as critical tools of student engagement in learning. Our compassionate community of global learners focuses on developing students’ knowledge and skills, as well as their attitudes, behaviors, aspirations, and beliefs for success in the 21st-century economy. ',
+			title: 'Our Mission',
+			description: 'To create a pathway to academic excellence through the maximization of individual students\' potentials, adherence to godly principles, and collaborative effort with teachers and parents. We are committed to inspiring students to work hard for a brighter future within a friendly learning environment, with special emphasis on technology education in Coding, Abacus, and Robotics.',
 			image: studentsInClass1,
-			filp: false
+			flip: false
 		},
 		{
-			title: 'Vision',
-			description:
-				'Our vision is to be a leading STEAM education provider that empowers students to succeed in the 21st-century economy. We believe that every student deserves access to a quality education that prepares them for success in college and career. Our mission is to create a transformative learning experience that is engaging, globally oriented, and builds a strong STEAM foundation for college and career readiness. We aim to provide a quality education for all students by focusing on both heart and mind as critical tools of student engagement in learning. Our compassionate community of global learners focuses on developing students’ knowledge and skills, as well as their attitudes, behaviors, aspirations, and beliefs for success in the 21st-century economy. ',
+			title: 'Our Vision',
+			description: 'To become the hub for producing great leaders in every discipline and profession worldwide. We aim to be recognized as a premier institution that nurtures not only academic excellence but also technological proficiency, preparing students to be innovative problem-solvers and responsible global citizens in an increasingly digital world.',
 			image: studentsInClass2,
 			flip: true
 		},
 		{
-			title: 'Values',
-			description:
-				'Our vision is to be a leading STEAM education provider that empowers students to succeed in the 21st-century economy. We believe that every student deserves access to a quality education that prepares them for success in college and career. Our mission is to create a transformative learning experience that is engaging, globally oriented, and builds a strong STEAM foundation for college and career readiness. We aim to provide a quality education for all students by focusing on both heart and mind as critical tools of student engagement in learning. Our compassionate community of global learners focuses on developing students’ knowledge and skills, as well as their attitudes, behaviors, aspirations, and beliefs for success in the 21st-century economy. ',
+			title: 'Core Values',
+			description: 'We believe in excellence, innovation, and personalized learning. Our values include fostering a growth mindset, encouraging curiosity, and building confidence through hands-on experience in coding, abacus training, and robotics. We celebrate both individual achievement and collaborative success.',
 			image: studentsInClass3,
 			flip: false
 		},
 		{
-			title: 'Educational Philosophy ',
-			description:
-				'Our educational philosophy is to create a transformative learning experience that is engaging, globally oriented, and builds a strong STEAM foundation for college and career readiness. We aim to provide a quality education for all students by focusing on both heart and mind as critical tools of student engagement in learning. Our compassionate community of global learners focuses on developing students’ knowledge and skills, as well as their attitudes, behaviors, aspirations, and beliefs for success in the 21st-century economy. ',
+			title: 'Educational Approach',
+			description: 'Our student-centered approach combines theoretical knowledge with practical application. Through project-based learning and interactive sessions, we make complex concepts in coding, mental math, and robotics accessible and enjoyable for students of all skill levels.',
 			image: studentsInClass4,
 			flip: true
 		},
 		{
 			title: 'Learning Environment',
-			description:
-				'At Vista Charter Public Schools, we believe joyful schools are successful schools.  The learning environment is a major key to teacher and student happiness, and it is the setting in which a culture of joyous learning occurs. The learning environment at Vista takes into account the whole child and incorporates important aspects of the physical setting, classroom norms and values, the role of pedagogy and instructional approach, discipline management, and family engagement.',
+			description: 'Our modern, technology-equipped classrooms are designed to inspire creativity and collaboration. We maintain small class sizes to ensure personalized attention, with dedicated spaces for coding labs, abacus training, and robotics workshops that stimulate innovation and hands-on learning.',
 			image: studentsInClass5,
 			flip: false
 		},
 		{
-			title: 'Playing Environment',
-			description:
-				'At Vista Charter Public Schools, we believe joyful schools are successful schools.  The learning environment is a major key to teacher and student happiness, and it is the setting in which a culture of joyous learning occurs. The learning environment at Vista takes into account the whole child and incorporates important aspects of the physical setting, classroom norms and values, the role of pedagogy and instructional approach, discipline management, and family engagement.',
+			title: 'Student Development',
+			description: 'Beyond technical skills, we focus on developing essential life skills such as logical reasoning, concentration, and perseverance. Our programs are designed to boost confidence, enhance academic performance, and prepare students for future academic and career success in technology-related fields.',
 			image: studentsInClass6,
 			flip: true
 		}
 	];
 
-	const message = 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi mollitia cupiditate quasi assumenda incidunt, repellendus labore non, nihil quas autem iusto optio. Assumenda in repellendus vero suscipit tempora laborum ad dicta quasi, neque nemo quae at, numquam sunt itaque id ea ducimus! Cum distinctio totam fuga molestias dicta quia quisquam!';
+	const message = 'At Shining Vessels Academy, we are passionate about unlocking the potential in every child through innovative education in Coding, Abacus Training, and Robotics. Our expert instructors and engaging curriculum create an environment where learning meets fun and creativity.';
 </script>
 
 <Heading {message} {backgroundImage}>
